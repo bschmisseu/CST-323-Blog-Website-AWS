@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+    build:
+        commands:
+            - echo 'Building Services App............'
+            - mvn amazon clean package
+        
+artifacts:
+    files: '**/*'
+    
+cache:
+  paths:
+    - '/root/.m2/**/*'
