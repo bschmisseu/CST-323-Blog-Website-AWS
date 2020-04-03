@@ -15,7 +15,7 @@ function getBlogs()
 	$.ajax(
 		{
 			type: "GET",
-			url: "/v1/userBlogs?userID=".concat(userID),
+			url: "/BlogWebsite/v1/userBlogs?userID=".concat(userID),
 			dataType: "json",
 						
 			success: function(data)

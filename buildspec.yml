@@ -8,7 +8,7 @@ phases:
         
 artifacts:
     files: '**/*'
-    base-directory: target/BlogWebsite-0.0.1-SNAPSHOT
+    base-directory: target/BlogWebsite
     
 cache:
   paths:
