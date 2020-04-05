@@ -7,7 +7,7 @@
   -->
 
 <div class="midPage">
-<h2>Welcome to Blog Website</h2><br/>
+<h2>Welcome to Blog Website Test</h2><br/>
 
 <div align="center">
 <table>
